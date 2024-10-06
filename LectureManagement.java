@@ -1,17 +1,11 @@
 public class LectureManagement extends PersonManagement {
-    public String getName() {
-        return name;
+    public LectureManagement() {
+        super();
     }
 
-    public void setName(String name) {
+    public LectureManagement(String name, String birthDate) {
+        super();
         this.name = name;
-    }
-
-    public String getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
     }
 }
