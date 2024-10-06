@@ -1,7 +1,4 @@
-public class LectureManagement {
-    private String name;
-    private String birthDate;
-
+public class LectureManagement extends PersonManagement {
     public String getName() {
         return name;
     }
