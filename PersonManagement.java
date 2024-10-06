@@ -1,6 +1,14 @@
 public class PersonManagement {
-    private String name;
-    private String birthDate;
+    protected String name;
+    protected String birthDate;
+
+    public PersonManagement() {
+    }
+
+    public PersonManagement(String name, String birthDate) {
+        this.name = name;
+        this.birthDate = birthDate;
+    }
 
     public String getName() {
         return name;
