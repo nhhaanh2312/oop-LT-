@@ -1,23 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class StudentManagement {
-    private String name;
-    private String birthDate;
+public class StudentManagement extends PersonManagement {
     private String id;
 
-    public String getName() {
-        return name;
+    public StudentManagement() {
+        super();
     }
 
-    public void setName(String name) {
+    public StudentManagement(String name, String birthDate) {
+        super();
         this.name = name;
-    }
-
-    public String getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
     }
 
