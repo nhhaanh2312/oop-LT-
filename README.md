@@ -1,3 +1,2 @@
 "# oop-LT-" 
-![diagram.png](diagram.png)
-![image](https://github.com/user-attachments/assets/b849a2aa-7716-45ce-b010-5309bb593240)
+![image](https://github.com/user-attachments/assets/d935be11-ac51-41d0-a824-7fc2c984af68)
